@@ -1,0 +1,35 @@
+.d-flex {
+    display: flex;
+}
+
+.label-value {
+    display: block;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.result-card {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    padding: 12px;
+}
+
+.resultItems {
+
+    .log-card {
+        border: 1px solid black;
+        border-radius: 4px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        padding: 12px;
+    }
+}
+
+.resultItems:nth-child(even) {
+
+    .log-card {
+        background-color: #f3f3f3;
+    }
+}
